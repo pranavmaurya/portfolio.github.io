@@ -1,0 +1,66 @@
+/* Certificate Section Styles */
+.certificates-section {
+    background-color: #f8f8f8;
+    padding: 60px;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .certificate-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .certificate-card {
+    position: relative;
+    width: 200px;
+    height: auto;
+  }
+  
+  .certificate-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: center;
+  }
+  
+  .popup-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .certificate-card:hover .certificate-popup {
+    display: block;
+  }
+  
+  .certificate-image:hover {
+    transform: scale(1.05);
+    z-index: 1;
+  }
+  
