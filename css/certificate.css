@@ -1,0 +1,40 @@
+/* Certificate Section Styles */
+.certificates-section {
+  background-color: #f8f8f8;
+  padding: 40px 20px; 
+}
+
+.section-heading {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.certificate-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.certificate-card {
+  width: 200px;
+  height: auto;
+}
+
+.certificate-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+
+.certificate-link {
+  text-decoration: none;
+}
+
+
